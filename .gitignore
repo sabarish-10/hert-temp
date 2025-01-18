@@ -4,6 +4,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.idx 
 
 # Editor directories and files
 !.vscode/
