@@ -12,11 +12,11 @@ function Navbar() {
       </div>
 
       <ul className="hidden md:flex items-center space-x-6 text-sm">
-        <li className="hover:text-orange-500 p-2"><Link to="/">Home</Link></li>
-        <li className="hover:text-orange-500 p-2">Services</li>
-        <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2">Products</li>
-        <li className="hover:text-orange-500 p-2"><Link to="/career">Career</Link></li>
-        <li className="hover:text-orange-500 p-2"><Link to="/contact">Contact Us</Link></li>
+        <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/">Home</Link></li>
+        <li className="hover:text-orange-500 p-2  cursor-pointer"><Link to="/service">Services</Link></li>
+        <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2 cursor-pointer">Products</li>
+        <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/career">Career</Link></li>
+        <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/contact">Contact Us</Link></li>
       </ul>
 
       <button className="hidden md:block border border-lightOrange p-2 px-5 py-3 font-urbanist text-11.25 font-medium mx-4 rounded hover:bg-orange-500 hover:text-white">
@@ -60,11 +60,11 @@ function Navbar() {
 
 
         <ul className="flex flex-col items-center space-y-4">
-          <li className="hover:text-orange-500 p-2">Home</li>
-          <li className="hover:text-orange-500 p-2">Services</li>
-          <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2">Products</li>
-          <li className="hover:text-orange-500 p-2"><Link to="/career">Career</Link></li>
-          <li className="hover:text-orange-500 p-2"><Link to="/contact">Contact Us</Link></li>
+        <li className="hover:text-orange-500 p-2  cursor-pointer "><Link to="/">Home</Link></li>
+        <li className="hover:text-orange-500 p-2 cursor-pointer "><Link to="/service">Services</Link></li>
+          <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2 cursor-pointer">Products</li>
+          <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/career">Career</Link></li>
+          <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/contact">Contact Us</Link></li>
         </ul>
 
         <button className="border border-lightOrange p-2 px-5 py-2 rounded font-urbanist text-11.25 font-medium hover:text-white mt-4">

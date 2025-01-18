@@ -1,6 +1,6 @@
 
 import Navbar from "./Navbar";
-import ProductsSection from "./ProductsSection";
+import ProductsHeader from "./ProductsHeader";
 import FeaturesSection from "./FeaturesSection";
 import AshokTextiles from "./ashokTextiles";
 import ProjectManagement from "./projectManagement";
@@ -13,7 +13,7 @@ export default function ProductsMain(){
     return(
         <>
         <Navbar />
-        <ProductsSection />
+        <ProductsHeader />
         <FeaturesSection/>
         <AshokTextiles/>
         <ProjectManagement/>
