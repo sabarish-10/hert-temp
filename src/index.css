@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .glow-effect {
+    text-shadow: 
+      0 0 12px rgba(254, 173, 120, 0.3), /* Soft glow with no inner shadow */
+      0 0 20px rgba(254, 173, 120, 0.3), 
+      0 0 30px rgba(254, 173, 120, 0.3); /* Extended light orange glow */
+    color: #FE5D26; /* Vivid text color for contrast */
+  }
+  
+  }
