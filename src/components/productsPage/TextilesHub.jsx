@@ -15,8 +15,10 @@ export default function TextilesHub() {
       <div className="flex justify-center items-center ">
         <img className="w-4/5 my-4 lg:my-0" src={TextilesHubImg} alt="Textiles Hub" />
       </div>
-
+ 
       <div className="bg-black  flex items-center text-white   justify-center p-6 font-segoe">
+    <div className="bg-black  flex items-center text-white  justify-center p-6 font-segoe">
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl">
           <div className="flex items-center justify-center">
             <ul className="space-y-4 list-disc tracking-wider lg:w-11/12">
