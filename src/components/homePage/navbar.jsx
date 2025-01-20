@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center p-4 bg-black text-white font-segoe relative z-10">
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="w-36 h-14 mx-4" />
+      <Link to="/">  <img src={logo} alt="Logo" className="w-36 h-14 mx-4" /></Link>
       </div>
 
       <ul className="hidden md:flex items-center space-x-6 text-sm">
