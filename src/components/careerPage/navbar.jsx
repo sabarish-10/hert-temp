@@ -8,7 +8,8 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center p-4 bg-black text-white font-segoe relative z-10">
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="w-36 h-14 mx-4" />
+  
+      <Link to="/"><img src={logo} alt="Logo" className="w-36 h-14 mx-4" /></Link>
       </div>
 
       <ul className="hidden md:flex items-center space-x-6 text-sm">
@@ -61,7 +62,7 @@ function Navbar() {
 
 
         <ul className="flex flex-col items-center space-y-4">
-        <li className="hover:text-orange-500 p-2 cursor-pointer">Home</li>
+        <li className="hover:text-orange-500 p-2 cursor-pointer"> <Link to="/">Home</Link></li>
         <li className="hover:text-orange-500 p-2  cursor-pointer"><Link to="/service">Services</Link></li>
         <li className="hover:text-orange-500 p-2 cursor-pointer"><Link to="/">Products</Link></li>
         <li className="border rounded border-gray-800 border-opacity-80 text-orange-500 p-2 cursor-pointer">Career</li>

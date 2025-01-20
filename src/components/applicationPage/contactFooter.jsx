@@ -9,12 +9,12 @@ export default function ContactFooter() {
 
             <div className="py-6 flex flex-col items-center text-center mt-14">
                 <div className="mb-4">
-                    <img src={LogoImg} alt="Hertzworkz Logo" className="h-12" />
+                <Link to="/">  <img src={LogoImg} alt="Hertzworkz Logo" className="h-12" /></Link>
                 </div>
 
                 <nav className="flex flex-wrap justify-center px-3 sm:justify-between gap-4 text-[14px] font-normal font-segoe mt-3 mb-6 text-footer">
                     <a href="#" className="hover:text-orange-500"><Link to="/">Home</Link></a>
-                    <a href="#" className="hover:text-orange-500">Services</a>
+                    <a href="#" className="hover:text-orange-500"><Link to="/service"> Services</Link></a>
                     <a href="#" className="hover:text-orange-500"><Link to="/product">Products</Link></a>
                     <a href="#" className="hover:text-orange-500"><Link to="/career">Career</Link></a>
                     <a href="#" className="hover:text-orange-500"><Link to="/contact">Contact Us</Link></a>
